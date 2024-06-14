@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-flowty-crm"
+description = "This is a custom node that lets you use Convolutional Reconstruction Models right from ComfyUI.\n[a/CRM](https://ml.cs.tsinghua.edu.cn/~zhengyi/CRM/) is a high-fidelity feed-forward single image-to-3D generative model."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["huggingface-hub", "diffusers", "Pillow", "einops", "open-clip-torch", "omegaconf", "trimesh", "ninja"]
+
+[project.urls]
+Repository = "https://github.com/flowtyone/ComfyUI-Flowty-CRM"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Flowty-CRM"
+Icon = ""
